@@ -203,7 +203,7 @@ section {
 
 .skill-tag {
     background: #3b82f6;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
     padding: 8px 16px;
     border-radius: 25px;
     font-size: 0.9rem;
@@ -219,7 +219,6 @@ section {
 }
 
 .project-card {
-    background: white;
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
@@ -227,6 +226,7 @@ section {
 }
 
 .project-card:hover {
+    text-decoration: none;
     transform: translateY(-5px);
     box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
 }
@@ -268,8 +268,8 @@ section {
 }
 
 .tech-tag {
-    background: #e5e7eb;
-    color: #374151;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: #ffffff;
     padding: 4px 12px;
     border-radius: 15px;
     font-size: 0.8rem;
