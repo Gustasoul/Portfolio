@@ -226,7 +226,6 @@ section {
 }
 
 .project-card:hover {
-    text-decoration: none;
     transform: translateY(-5px);
     box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
 }
@@ -248,10 +247,15 @@ section {
 }
 
 .project-title {
+    text-decoration: none;
     font-size: 1.25rem;
     font-weight: 600;
     margin-bottom: 0.75rem;
     color: #1f2937;
+}
+
+a{
+    text-decoration: none;
 }
 
 .project-description {
