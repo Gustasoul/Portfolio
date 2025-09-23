@@ -203,7 +203,7 @@ section {
 
 .skill-tag {
     background: #3b82f6;
-    color: white;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     padding: 8px 16px;
     border-radius: 25px;
     font-size: 0.9rem;
