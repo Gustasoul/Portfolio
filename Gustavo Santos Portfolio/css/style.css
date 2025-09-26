@@ -95,7 +95,7 @@ body {
   background-size: cover;
   background-position: center;
 
-  opacity: 0.3; /* Diminui apenas a opacidade da imagem */
+  opacity: 0.1; /* Diminui apenas a opacidade da imagem */
   z-index: -1; /* Fica atrás do conteúdo */
 }
 
@@ -104,7 +104,7 @@ body {
 }
 
 .gustasoul-capa{
-    width: 50vh;
+    width: 60vh;
     margin-bottom: -50px;
 }
 
