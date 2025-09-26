@@ -73,14 +73,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #5473ff 30%, #6114ae 60%);
     color: white;
     text-align: center;
     padding: 0 20px;
 
-  position: relative;
-  z-index: 0;
-  overflow: hidden; /* Garante que o background não ultrapasse os limites */
+    position: relative;
+    z-index: 0;
+    overflow: hidden; /* Garante que o background não ultrapasse os limites */
 }
 
 .hero::before{
