@@ -91,11 +91,11 @@ body {
   bottom: 0;
   left: 0;
 
-  background-image: url('https://i.pinimg.com/originals/62/39/4d/62394d753859943e6a1a36443ef78795.gif');
+  background-image: url('https://www.bram.us/wordpress/wp-content/uploads/2020/02/connected-vertices.gif');
   background-size: cover;
   background-position: center;
 
-  opacity: 0.15; /* Diminui apenas a opacidade da imagem */
+  opacity: 0.3; /* Diminui apenas a opacidade da imagem */
   z-index: -1; /* Fica atrás do conteúdo */
 }
 
