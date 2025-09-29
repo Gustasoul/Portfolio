@@ -15,17 +15,16 @@ body {
     color: #333;
     background-color: white;
     scroll-behavior: smooth;
+}
 
+.background{
     background-image: url('https://www.bram.us/wordpress/wp-content/uploads/2020/02/connected-vertices.gif');
     position: relative;
 }
 
-body::before {
+.background::before {
     content: '';
     position: absolute;
-    background-image: inherit;
-    background-size: inherit;
-    background-position: inherit;
     opacity: 0.1; /* Altere a opacidade conforme desejado */
     z-index: -1; /* Coloca a camada atrás do conteúdo */
 }
